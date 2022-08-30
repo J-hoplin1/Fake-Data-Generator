@@ -1,0 +1,33 @@
+{
+  "title" : "",
+  "extension" : "xlsx",
+  "rowCount" : 100000000,
+  "fields" : [
+    {
+      "name": "Date",
+      "type": "datetime"
+    },
+    {
+      "name" : "Sorts",
+      "type" : "str",
+      "max_length": 200
+    },
+    {
+      "name" :"col1",
+      "type" : "int",
+      "max" : 200
+    },
+    {
+      "name": "col2",
+      "type": "int",
+      "min": 0,
+      "max": 100
+    },
+    {
+      "name" : "col3",
+      "type": "int",
+      "min": 150
+    }
+  ]
+}
+
